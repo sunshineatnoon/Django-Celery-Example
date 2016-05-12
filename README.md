@@ -2,8 +2,11 @@
 This is a simple example about integrating Celery in Django website.
 
 # Dependecies
+
 Celery
+
 Django
+
 RabbitMQ
 
 # How to run:
