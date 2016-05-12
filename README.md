@@ -14,6 +14,8 @@ RabbitMQ
 ```
   git clone https://github.com/sunshineatnoon/Django-Celery-Example.git
   cd Django-Celery-Example
+  /usr/local/sbin/rabbitmq-server
+  celery -A celery_try worker -l info
   python manage.py makemigrations
   python manage.py migrate
   python manage.py runserver
