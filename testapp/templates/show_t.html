@@ -1,0 +1,31 @@
+<input type=button value="Previous Page" onClick="javascript:history.go(-1);">
+<p>
+  Your Task is <span class="user-count"></span>!
+</p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript">
+  (function(){
+    var poll = function(){
+      var json_dump = "{{ data }}";
+      var task_id = "{{task_id}}";
+      console.log(task_id);
+      $.ajax({
+        url:'poll_state',
+        type: 'POST',
+        data: {
+            task_id: task_id,
+            csrfmiddlewaretoken: "{{csrf_token}}",
+        },
+        success: function(result) {
+                    console.log(result);
+                    $('.user-count').text(result);
+                    }
+      });
+    };
+
+    setInterval(function() {
+      poll();
+
+    },2000);
+  })();
+</script>
