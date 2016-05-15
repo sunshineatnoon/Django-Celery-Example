@@ -9,9 +9,7 @@ This is a simple example about integrating Celery in Django website, it uses cel
 # Dependecies
 
 * Celery 3.1.19
-
 * Django 1.9
-
 * RabbitMQ 3.5.6
 
 # How to run:
