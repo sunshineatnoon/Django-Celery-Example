@@ -1,5 +1,10 @@
 # Django-Celery-Example
-This is a simple example about integrating Celery in Django website.
+This is a simple example about integrating Celery in Django website, it uses celery to run a long task and shows a progress bar about the progress of the task.
+
+![image](https://raw.githubusercontent.com/sunshineatnoon/Django-Celery-Example/master/images/2.png)
+![image](https://raw.githubusercontent.com/sunshineatnoon/Django-Celery-Example/master/images/3.png)
+![image](https://raw.githubusercontent.com/sunshineatnoon/Django-Celery-Example/master/images/1.png)
+
 
 # Dependecies
 
