@@ -8,11 +8,11 @@ This is a simple example about integrating Celery in Django website, it uses cel
 
 # Dependecies
 
-Celery
+* Celery 3.1.19
 
-Django
+* Django 1.9
 
-RabbitMQ
+* RabbitMQ 3.5.6
 
 # How to run:
 
