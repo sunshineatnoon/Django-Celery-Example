@@ -27,3 +27,7 @@ RabbitMQ
 ```
 
 Then visit [http://127.0.0.1:8000/index/](http://127.0.0.1:8000/index/).
+
+# Known Issue:
+
+Works well on firefox and chrome, but doesn't work on safari.
