@@ -28,6 +28,10 @@ RabbitMQ
 
 Then visit [http://127.0.0.1:8000/index/](http://127.0.0.1:8000/index/).
 
+# Technical Details: 
+
+See my [blog post](http://sunshineatnoon.github.io/How-to-create-a-progressbar-in-Django/).
+
 # Known Issue:
 
 Works well on firefox and chrome, but doesn't work on safari.
